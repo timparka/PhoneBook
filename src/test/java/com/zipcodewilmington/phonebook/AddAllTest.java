@@ -40,7 +40,6 @@ public class AddAllTest {
                 "302-555-3333",
                 "302-555-2222",
         };
-
         // when
         phoneBook.addAll(name, phoneNumbers);
         List<String> actualPhoneNumbers = phoneBook.lookup(name);
